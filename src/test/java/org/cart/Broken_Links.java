@@ -36,6 +36,10 @@ public class Broken_Links {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
+		
+		System.out.println("sai");
+		System.out.println("goutham");
+		System.out.println("moni");
 		//Broken Links
 		//1. to find no.of links in a page
 		List<WebElement> alllinks = driver.findElements(By.tagName("a"));
@@ -55,12 +59,16 @@ public class Broken_Links {
 		 int responsecode = hp.getResponseCode();
 		 if(responsecode !=200) {
 		 System.out.println(url + "----->"+ responsecode);
+		 
+		System.out.println("sai");
+		System.out.println("goutham");
+		System.out.println("moni");
 		 }
 		 
 		 }
 
 		 }
-		 
+		
 		 
 		 
 		 
