@@ -32,6 +32,9 @@ public class Cart_Function extends BaseClass {
 		p = new Cart_Pojo();
 		javascriptclick(p.getLuglink());
 
+		System.out.println("sai");
+		System.out.println("moni");
+		System.out.println("roshini");
 		javascriptclick(p.getCheck());
 		// javascriptclick(p.getGeo());
 		// javascriptclick(p.getCart());
