@@ -55,12 +55,16 @@ public class Broken_Links {
 		 int responsecode = hp.getResponseCode();
 		 if(responsecode !=200) {
 		 System.out.println(url + "----->"+ responsecode);
+		 
+		System.out.println("sai");
+		System.out.println("goutham");
+		System.out.println("moni");
 		 }
 		 
 		 }
 
 		 }
-		 
+		
 		 
 		 
 		 
