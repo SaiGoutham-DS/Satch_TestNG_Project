@@ -49,6 +49,9 @@ public class Cart_Function extends BaseClass {
 		launchTheChromeBrowser();
 		loadURL("https://www.satch.com/en/");
 		p = new Cart_Pojo();
+		System.out.println("sai");
+		System.out.println("moni");
+		System.out.println("roshini");
 		javascriptclick(p.getLuglink());
 		javascriptclick(p.getCheck());
 		javascriptclick(p.getGeo());
@@ -64,6 +67,9 @@ public class Cart_Function extends BaseClass {
 		impliCitWait(10);
 		loadURL("https://www.satch.com/en/");
 		p = new Cart_Pojo();
+		System.out.println("sai");
+		System.out.println("moni");
+		System.out.println("roshini");
 		javascriptclick(p.getLuglink());
 		javascriptclick(p.getCheck());
 		javascriptclick(p.getGeo());
